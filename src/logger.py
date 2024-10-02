@@ -16,12 +16,12 @@ logging.basicConfig(
 
 )
 
-if __name__=="__main__":
+# if __name__=="__main__":
 
-    # logging.info("Logging has started")
+#     # logging.info("Logging has started")
 
-    try:
-        a=1/0
-    except Exception as e:
-        logging.info("divide by Zero")
-        raise CustomException (e,sys)   
+#     try:
+#         a=1/0
+#     except Exception as e:
+#         logging.info("divide by Zero")
+#         raise CustomException (e,sys)   
